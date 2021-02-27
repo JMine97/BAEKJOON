@@ -14,10 +14,10 @@ for _ in range(int(input())):
 
     # 소문자
     if a_ord >= ord('a'):
-        a_ord = a_ord - (ord('a') - ord('Z'))
+        a_ord = a_ord - (ord('a') - ord('Z') - 1)
     # 소문자
     if c_ord >= ord('a'):
-        c_ord = c_ord - (ord('a') - ord('Z'))
+        c_ord = c_ord - (ord('a') - ord('Z') - 1)
 
     a_ord = a_ord - ord('A')
     c_ord = c_ord - ord('A')
@@ -54,14 +54,13 @@ for i in range(0, len(arr), 2):
     # print(arr[i], arr[i+1])
     a = arr[i]
     c = arr[i + 1]
-    # print(a, c)
 
     # 소문자
     if a > 25:
-        a = a + (ord('a') - ord('Z'))
+        a = a + (ord('a') - ord('Z') - 1)
     # 소문자
     if c > 25:
-        c = c + (ord('a') - ord('Z'))
+        c = c + (ord('a') - ord('Z') - 1)
 
     a = a + ord('A')
     c = c + ord('A')
