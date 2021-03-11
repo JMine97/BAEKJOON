@@ -9,3 +9,4 @@
 <a href="https://github.com/JMine97/BAEKJOON/blob/main/heapq/1927.py">1927</a> <br>
 <a href="https://github.com/JMine97/BAEKJOON/blob/main/heapq/11279.py">11279</a> <br>
 <a href="https://github.com/JMine97/BAEKJOON/blob/main/heapq/11286.py">11286</a> <br>
+<a href="https://github.com/JMine97/BAEKJOON/blob/main/implement/3190.py">3190</a> <br>
